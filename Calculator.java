@@ -4,20 +4,20 @@ public class Calculator {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        // Input numbers
+        
         System.out.print("Enter first number: ");
         double num1 = input.nextDouble();
 
         System.out.print("Enter second number: ");
         double num2 = input.nextDouble();
 
-        // Choose operation
+        
         System.out.println("Choose operation (+, -, *, /): ");
         char operator = input.next().charAt(0);
 
         double result;
 
-        // Perform calculation
+        
         switch (operator) {
             case '+':
                 result = num1 + num2;
